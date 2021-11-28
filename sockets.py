@@ -88,7 +88,6 @@ def read_ws(ws,client):
                 packet = json.loads(msg)
                 for entity, value in packet.items():
                     myWorld.set(entity, value)
-                break
     except:
         '''Done'''
     return None
@@ -97,7 +96,6 @@ def read_ws(ws,client):
 def subscribe_socket(ws):
     '''Fufill the websocket URL of /subscribe, every update notify the
        websocket and read updates from the websocket '''
-    print("jjjjjjjjjjjjjjjjjjjjjjjjjj")
     # XXX: TODO IMPLEMENT ME
     client = queue.Queue()
     clients.append(client)

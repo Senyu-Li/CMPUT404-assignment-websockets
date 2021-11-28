@@ -124,7 +124,10 @@ function getPosition(e) {
 function addEntity(entity, data) {
     world[entity] = data;
     drawNextFrame(); // (but should we?)
-    socket.send( JSON.stringify( {entity: data} ) );
+    response = {};
+    response[entity] = data
+    console.log(response);
+    socket.send( JSON.stringify( response ) );
     //XXX: Send a XHTML Request that updates the entity you just modified!
 }
 var counter = 0;
@@ -246,7 +249,7 @@ mouse.mousedraggers.push(function(x,y,clicked,e) {
 
 
 function update() {
-    drawFrame();
+    renderFrame();
 }
 
 
