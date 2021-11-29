@@ -67,8 +67,7 @@ Generally everything is LICENSE'D under the Apache 2 license by Abram Hindle.
 * Mark Galloway
 * Abram Hindle
 * Cole Mackenzie
-
-senyu
+* senyu
 
 consultants:
 
