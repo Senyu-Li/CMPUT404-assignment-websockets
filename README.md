@@ -53,9 +53,29 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
-Contributors
-============
+Contributors / Licensing
+========================
+index.html refenreced some code from preofessor Abram Hindle
 
+link: https://github.com/uofa-cmput404/cmput404-slides/blob/master/examples/WebSocketsExamples/static/broadcast.html
+
+socket.py referenced some code from professor Abram Hindle
+
+link: https://github.com/uofa-cmput404/cmput404-slides/blob/master/examples/WebSocketsExamples/broadcaster.py
+
+Generally everything is LICENSE'D under the Apache 2 license by Abram Hindle.
 * Mark Galloway
 * Abram Hindle
 * Cole Mackenzie
+
+senyu
+
+consultants:
+
+jiaxin13
+
+jiayuan5
+
+
+
+
